@@ -1,0 +1,28 @@
+@media screen {
+   
+   .inner_minta { display:block; background:none; width:820px;}
+   .inner_minta h1, .inner_minta h2 { text-align:center;}
+   .inner_minta p.hierarch { width:auto; text-align:center;}
+   .inner_minta p.descript { display:block; padding-left:10px; padding:0; margin-bottom:0px; width:auto; height:auto; font-size:16px; color:#774d2a; text-align:center;}
+   .inner_minta p.descript a { float:none; display:inline-block; margin:0 6px 10px 6px ;}
+   .minta { width:180px; text-align:left; color:#774d2a;}
+   .minta a { border: 3px solid #fff; display:inline-block; margin:0; text-align:left;}
+   .minta a:hover { border: 3px solid #ccc;}
+   .minta a.active { border: 3px solid #000;}
+   .minta a.active:hover { border: 3px solid #999;}
+   .inner_minta .left { float:left; display:inline;}
+   .inner_minta .right { float:right; display:inline;}
+
+   .pic, .pic2 { float:left; position: relative; width:400px; height:490px; margin-left:30px; padding:0; }
+   .pic img.jobb { position:absolute; top:30px; left:0; -webkit-box-shadow: 0px 0px 5px 6px #ccc; box-shadow: 0px 0px 5px 6px #ccc; z-index:1; }
+   .pic img.bal { position:absolute; top:93px; left:51px; z-index:2;}
+   .pic2 img.jobb { position:absolute; top:30px; left:0; -webkit-box-shadow: 0px 0px 5px 6px #ccc; box-shadow: 0px 0px 5px 6px #ccc; z-index:1; }
+   .pic2 img.bal { position:absolute; top:92px; left:81px; z-index:2;}
+
+   .inner_minta ul.mintaleiras { margin: 40px 0 0 266px; }
+   .inner_minta ul li.v1 { float:left; vertical-align:top; display:inline-block; width:250px; }
+   .inner_minta ul li.v2 { float:left; vertical-align:top; display:inline-block; width:400px; }
+   .inner_minta ul li.v3 { clear:both; float:left; display:inline-block; margin:10px 0; text-align:center;}
+   .inner_minta ul li p { margin:16px 0; color:#774d2a; font-size:16px;}
+
+}
